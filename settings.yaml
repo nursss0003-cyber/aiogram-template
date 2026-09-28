@@ -1,1 +1,11 @@
-bot_token:"8352581592:AAGNxJBR5jijFwj5eNTn6yOAHYpJcHMApCk"
+schema: "./settings.schema.yaml"
+bot_token: "8870151303:AAH_6EW2TfVj-ecSrPqHcglCoxD0OhMGm8Y"
+bot_name: "My Telegram Bot"
+bot_commands:
+    - command: "start"
+    description: "Start the bot"
+    - command: "help"
+    description: "Get help"
+    - command: "menu"
+    description: "Show the menu"
+redis_url: null
